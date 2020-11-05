@@ -1,0 +1,411 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.1/assets/img/favicons/favicon.ico">
+
+    <title>fr00sty</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.1/examples/album/album.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+<style type="text/css">
+    
+    body{
+        background-position: center center ;
+        background-repeat: ;
+        background-size: fill;
+        background-image: url('https://i.imgur.com/oa9xbxq.png');
+    }
+
+</style>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>glassFinder</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+        <div class="row">
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-6 ">
+                
+            <!-- slide -->
+                <div class="album py-5 px-4 bg-white mt-2" id="screen1" >
+                    <div class="container">
+
+                    <center>
+                        <h3 class="mt-5">1. Select Gender</h3>
+                    </center>
+
+                      <div class="row ">
+
+                        <div class="col-md-4 mx-auto mt-5" >
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/U1Kx8uR.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="male" class="custom-control-input" value="male" name="gender">
+                                        <label class="custom-control-label" for="male"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card  shadow-lg">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/AccEPzw.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="female"  class="custom-control-input" value="female" name="gender">
+                                        <label class="custom-control-label" for="female"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/AccEPzw.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="transgender"  class="custom-control-input" value="transgender" name="gender">
+                                        <label class="custom-control-label" for="transgender"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div>  
+                        
+                      </div>
+
+                      <center>
+                        <button type="button" class="btn mt-5 btn-dark" id="nextBtn_1">Next</button>
+                     </center>
+
+                    </div>
+                </div>
+
+            <!-- slide -->
+
+            <!-- slide --> 
+                <div class="album py-5 px-4 bg-white mt-2"  id="screen2" style="background-position: center center ; background-repeat: no-repeat;  back background-size: fill; background-image: url('https://i.imgur.com/vyiDmBV.png')">
+                    <div class="container">
+
+                    <center>
+                        <h3 class="mt-5 ">2. Select Shape</h3>
+                    </center>
+
+                      <div class="row ">
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/IyrAnwU.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="square"  class="custom-control-input" value="square" name="shape">
+                                        <label class="custom-control-label" for="square"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/VT6T2iq.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="oval"  class="custom-control-input" value="oval" name="shape">
+                                        <label class="custom-control-label" for="oval"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/NH6doh1.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="round"  class="custom-control-input" value="round" name="shape">
+                                        <label class="custom-control-label" for="round"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div>  
+                        
+                      </div>
+
+                      <center>
+                        <button type="button" class="btn mt-5 btn-dark" id="nextBtn_2">Next</button>
+                     </center>
+
+                    </div>
+                </div>
+
+            <!-- slide -->
+
+            <!-- slide -->
+                <div class="album py-5 px-4 bg-white mt-2"  id="screen3" style="background-position: center center ; background-repeat: no-repeat;  back background-size: fill; background-image: url('https://i.imgur.com/vyiDmBV.png')">
+                    <div class="container">
+
+                    <center>
+                        <h3 class=" mt-5">3. Select Colour</h3>
+                    </center>
+
+                      <div class="row ">
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/hepp7dg.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="black"  class="custom-control-input" value="black" name="color">
+                                        <label class="custom-control-label" for="black"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                            <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/7sjCZYM.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="brown"  class="custom-control-input" value="brown" name="color">
+                                        <label class="custom-control-label" for="brown"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div class="col-md-4 mx-auto mt-5">
+                          <div class="card   shadow">
+                           <center>
+                                <img class="card-img-top mt-3" src="https://i.imgur.com/OXSiza3.png"  style="width:150px;" alt="Card image cap">
+                            </center>
+                            <div class="card-body" style="background-color: #777; ">
+                              
+                              <center>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="blue"  class="custom-control-input" value="blue" name="color">
+                                        <label class="custom-control-label" for="blue"></label>
+                                    </div>
+                              </center>
+                              
+                            </div>
+                          </div>
+                        </div>  
+                        
+                      </div>
+
+                      <center>
+                        <button type="button" class="btn mt-5 btn-dark" id="nextBtn_3">Next</button>
+                     </center>
+
+                    </div>
+                </div>
+
+            <!-- slide -->
+
+            
+            </div>
+
+            <div class="col-lg-3">  </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-8">
+                <div id="successBlock" class="mt-5 mx-auto"></div> 
+            </div>
+
+            <div class="col-lg-2"></div>
+        </div>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/holder.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+  </body>
+</html>
+
+<!--  -->
+
+<style type="text/css">
+    .custom-control-label {
+        position: relative;
+        margin-bottom: 10px !important;
+        margin-left: 12px !important;
+    }
+</style>
+
+
+<script type="text/javascript">
+
+    function get_url_data(){
+
+        var params = new window.URLSearchParams(window.location.search);
+        alert(params.get('para'));
+
+    }
+
+
+    // hide all screens at first
+
+    $( document ).ready(function() {
+         
+         $("#screen1").hide();
+         $("#screen2").hide();
+         $("#screen3").hide();
+         $("#screen1").show('show');
+    });
+
+    $("#nextBtn_1").click(function (){
+
+        $("#screen1").hide();
+        $("#screen2").slideDown("slow");
+        $("#screen3").hide();
+
+        var genderOpt = $("input[name='gender']:checked").val();
+
+        var newurl = window.location.href + '?gender='+ genderOpt;
+        window.history.pushState({path:newurl},'',newurl);
+
+    });
+
+    $("#nextBtn_2").click(function (){
+
+        $("#screen1").hide();
+        $("#screen2").hide();
+        $("#screen3").show('slide');
+
+        var shapeOpt = $("input[name='shape']:checked").val();
+
+        var newurl = window.location.href + '&shape='+ shapeOpt;
+        window.history.pushState({path:newurl},'',newurl);
+
+    });
+
+    $("#nextBtn_3").click(function (){
+
+        $("#screen1").hide();
+        $("#screen2").hide();
+        $("#screen3").hide('slide');
+
+        var colorOpt = $("input[name='color']:checked").val();
+
+        var newurl = window.location.href + '&color='+ colorOpt;
+        window.history.pushState({path:newurl},'',newurl);
+
+        var finalurl = window.location.href;
+
+        var html = '<center><h4 class="mt-5 mx-auto"><b>URL : </b> <span class="text-info">'+finalurl+'</span> </h4> <i class="mt-5 fa-4x text-success fa-spin false fa-glasses"></i> <h4 class="mt-3">Finding Glasses</h4> </center>' 
+
+        $("#successBlock" ).html(html);
+
+    });
+
+</script>
+
+</body>
+</html>
